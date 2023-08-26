@@ -1,0 +1,12 @@
+:global(.rdrStartEdge) {
+  background-color: #1E49E2;
+  border-radius: 10px 10px 10px 10px;
+}
+
+:global(.rdrEndEdge) {
+    background-color: #1E49E2;
+  }
+
+  .rdrInRange ~ .rdrDayNumber span {
+    color: #000;
+  }
